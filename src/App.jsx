@@ -1,9 +1,8 @@
-
-
+import { Header } from "./UI/Header"
 function App() {
   return (
     <>
-      <h1 className="text-7xl text-center">Gestor de citas medicas</h1>
+      <Header/>
     </>
   )
 }

@@ -44,8 +44,15 @@ export const RegistroPage = () =>{
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-fit p-2 gap-4'>
               <FaLock size={20}/>
               <input
-              type="text"
+              type="password"
               placeholder='Contraseña'
+             className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0'/>
+            </div>
+            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-fit p-2 gap-4'>
+              <FaLock size={20}/>
+              <input
+              type="password"
+              placeholder='Confirmar contraseña'
              className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0'/>
             </div>
                <button className='w-[80%] p-1 border-[#60D956] border-1 rounded-xs text-[#60D956] font-bold shadow-md'>Ingresar</button>
@@ -64,5 +71,6 @@ export const RegistroPage = () =>{
   </div>
   
 )
+
 
 }

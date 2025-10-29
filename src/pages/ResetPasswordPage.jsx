@@ -1,7 +1,6 @@
 import React from 'react'
 import { MdEmail } from "react-icons/md";
 
-
 export const ResetPasswordPage = () => {
     const HandleSubmit = (e) => {
         e.preventDefault();

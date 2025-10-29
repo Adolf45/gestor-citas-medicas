@@ -1,19 +1,15 @@
 import { Header } from "./UI/Header"
+import { Footer } from "./UI/Footer"
+import { Rutas } from "./routes/Rutas"
+
 function App() {
   return (
     <>
-       <div className="min-h-screen flex flex-col">
-         <Header/>
-      {/*
-          <Routes>
-          <Route path="/resetPasswordSuccess" element={<ResetPasswordSuccess />} />
-          <Route path="/resetPassword" element={<ResetPasswordPage />} />
-          <Route path="/loginPage" element={<LoginPage />} />
-          <Route path="/registroPage" element={<RegistroPage />} />
-        </Routes>
-      */}
+          <Header/>
+
+          <Rutas/>
+
           <Footer />
-        </div> 
     </>
   )
 }

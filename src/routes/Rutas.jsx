@@ -5,6 +5,7 @@ import { LoginPage } from '../pages/LoginPage'
 import { RegistroPage } from '../pages/RegistroPage'
 import {ResetPasswordSuccessPage} from '../pages/ResetPasswordSuccessPage'
 import { NewDate } from '../pages/NewDate'
+import { ProtectedRouter } from './ProtectedRouter.jsx'
 
 export const Rutas = () => {
   return (
@@ -16,8 +17,14 @@ export const Rutas = () => {
         <Route path="/loginPage" element={<LoginPage />} />
         <Route path="/registroPage" element={<RegistroPage />} />
         <Route path="/resetPasswordSuccess" element={<ResetPasswordSuccessPage />} />
+
+        {/* Aqui van las rutas privadas osea las que se necesitan el login activo */}
+        
+        <Route element={<ProtectedRouter/>}>
+
         <Route path='/newDate' element={<NewDate/>}/>
 
+        </Route>
     </Routes>
   )
 }

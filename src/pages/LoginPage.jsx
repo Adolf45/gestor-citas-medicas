@@ -2,10 +2,17 @@ import React from "react";
 import { FaUserCircle } from 'react-icons/fa';
 import { FaUserCheck } from "react-icons/fa";
 import { InputPasswordToggle } from "../components/input/InputPasswordToggle";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext.jsx";
 
 export const LoginPage = () =>{
+  const {SignIn,error} = useContext(AuthContext);
    const HandleSubmit = (e) => {
         e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+        console.log(data);
+        SignIn(data);
     }
 
     return(
@@ -22,12 +29,15 @@ export const LoginPage = () =>{
           <input 
           type="email" 
           placeholder='Usuario o correo electrónico' 
+          name="email"
           className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0' />
           </div>
           
         <InputPasswordToggle placeholder={'Contraseña'} id={"password"}/>
 
          <button className='w-[80%] p-1 border-[#60D956] border-1 rounded-xs text-[#60D956] font-bold shadow-md cursor-pointer'>Ingresar</button>
+
+    {error && <p className="text-red-500 text-sm mt-2">Usuario o contraseña incorrecta</p>}
   
   <a href="/resetPassword" className='text-sm text-blue-500 hover:underline mb-2 mt-5'>
     ¿Olvidaste tu contraseña?

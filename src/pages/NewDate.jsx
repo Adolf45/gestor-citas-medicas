@@ -1,12 +1,15 @@
 import React from 'react'
 import { FaUserCheck } from "react-icons/fa";
+import { FaRegCalendar } from "react-icons/fa";
+import { IoMdTime } from "react-icons/io";
+import { AiOutlineBook } from "react-icons/ai";
+
 export const NewDate = () => {
-    const name = ["name-patient","date-patient","time-patient","reason-patient","note-patient","meridiem-patient"];
+
     function HandleSubmitCreateDate(e){
         e.preventDefault();
-        const data = name.map((n) =>{
-            return {[n]: e.target[n].value}
-        })
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
         console.log(data);
     }
   return (
@@ -32,12 +35,12 @@ export const NewDate = () => {
             </div>
          </div>
 
-         <div className='flex w-full justify-between max-md:flex-col flex-wrap'>
+         <div className='flex w-full justify-between max-md:flex-col'>
 
             <div>
             <label htmlFor="date-patient">Fecha de la cita</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <FaUserCheck size={20}/>
+                     <FaRegCalendar size={20}/>
                       <input 
                       type="date" 
                       name='date-patient'
@@ -51,7 +54,7 @@ export const NewDate = () => {
          <div>
             <label htmlFor="time-patient">Hora de la cita</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <FaUserCheck size={20}/>
+                     <IoMdTime size={25}/>
                       <input 
                       type="time" 
                       required
@@ -60,10 +63,12 @@ export const NewDate = () => {
                       id='time-patient'
                       className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
 
-                      <select name="meridiem-patient" id="" required>
-                        <option value="am">AM</option>
-                        <option value="pm">PM</option>
-                      </select>
+                     <div>
+                        <select name="meridiem-patient" id="meridiem-patient" className='focus:outline-none focus:ring-0'>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                     </div>
             </div>
          </div>
 
@@ -72,7 +77,7 @@ export const NewDate = () => {
         <div>
             <label htmlFor="reason-patient">Motivo de la cita</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <FaUserCheck size={20}/>
+                     <AiOutlineBook size={20}/>
                       <input 
                       type="text" 
                       name='reason-patient'
@@ -92,7 +97,11 @@ export const NewDate = () => {
             
             <div className='w-full flex justify-end'>
             
-            <button type='submit' className='bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors mt-4 cursor-pointer'>Crear Cita</button>
+            <button type='button' className='bg-red-500 text-white px-6 py-2 rounded-md hover:bg-red-400 transition-colors mt-4 mr-4 cursor-pointer'>
+                  Cancelar
+            </button>
+            
+            <button type='submit' className='bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors mt-4 cursor-pointer'>Agregar cita</button>
             
             </div>
         </form>

@@ -22,7 +22,7 @@ export const AuthProvider = ({children}) => {
         if(userData.email === dummyUser.email && userData.password === dummyUser.password){
             setLoginState(true);
             setUser(userData);
-            navigate('/newDate');
+            navigate('/dashboardDateToday');
         }
         else{
             setError(true)

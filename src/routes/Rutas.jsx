@@ -6,6 +6,7 @@ import { RegistroPage } from '../pages/RegistroPage'
 import {ResetPasswordSuccessPage} from '../pages/ResetPasswordSuccessPage'
 import { NewDate } from '../pages/NewDate'
 import { ProtectedRouter } from './ProtectedRouter.jsx'
+import { DashboardDateTodayPage } from '../pages/DashboardDateTodayPage.jsx'
 
 export const Rutas = () => {
   return (
@@ -23,6 +24,8 @@ export const Rutas = () => {
         <Route element={<ProtectedRouter/>}>
 
         <Route path='/newDate' element={<NewDate/>}/>
+
+        <Route path='/dashboardDateToday' element={<DashboardDateTodayPage/>}/>
 
         </Route>
     </Routes>

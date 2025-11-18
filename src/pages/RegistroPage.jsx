@@ -3,11 +3,13 @@ import { FaUserCheck } from "react-icons/fa";
 import { FaUserDoctor } from 'react-icons/fa6';
 import { FaHandHoldingMedical } from 'react-icons/fa6';
 import { InputPasswordToggle } from "../components/input/InputPasswordToggle";
+import { Form } from '../utils/form';
 
 
 export const RegistroPage = () =>{
    const HandleSubmit = (e) => {
-        e.preventDefault();
+        const {HandleSubmit} = Form();
+        const dataForm = HandleSubmit(e);
     }
 
   return (

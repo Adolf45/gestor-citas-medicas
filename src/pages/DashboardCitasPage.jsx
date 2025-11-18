@@ -14,6 +14,7 @@ import {
 
 
 export const DashboardCitasPage = () =>{
+
    const HandleSubmit = (e) => {
         e.preventDefault();
     }
@@ -54,10 +55,10 @@ export const DashboardCitasPage = () =>{
         </div>
 
         <div className="flex gap-3">
-          <button className="bg-cyan-400 hover:bg-cyan-500 text-white text-sm px-4 py-2 rounded-lg shadow-sm">
+          <button className="bg-cyan-400 hover:bg-cyan-500 text-white text-sm px-4 py-2 rounded-lg shadow-sm cursor-pointer">
             APLICAR FILTROS
           </button>
-          <button className="bg-gray-900 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded-lg shadow-sm">
+          <button className="bg-gray-900 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded-lg shadow-sm cursor-pointer">
             GENERAR CITA
           </button>
         </div>

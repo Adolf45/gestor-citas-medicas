@@ -1,9 +1,12 @@
 import React from 'react'
 import { MdEmail } from "react-icons/md";
+import { Form } from '../utils/form';
 
 export const ResetPasswordPage = () => {
     const HandleSubmit = (e) => {
         e.preventDefault();
+        const {HandleSubmit} = Form();
+        const dataForm = HandleSubmit(e);
     }
   return (
     <main className='h-dvh w-full flex flex-col items-center justify-center'>

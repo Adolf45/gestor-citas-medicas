@@ -22,7 +22,7 @@ export const AuthProvider = ({children}) => {
         if(userData.email === dummyUser.email && userData.password === dummyUser.password){
             setLoginState(true);
             setUser(userData);
-            navigate('/dashboardDateToday');
+            navigate('/dashboard');
         }
         else{
             setError(true)
@@ -34,12 +34,11 @@ export const AuthProvider = ({children}) => {
     }
 
     function SignOut(){
+        console.log("Cerrando sesion...");
         setUser(null);
         setLoginState(false);
-        navigate('/loginPage');
+        navigate('/');
     }
-
-    
 
     return(
         <AuthContext.Provider value={{user,loginState,SignIn,SignOut,error}}>

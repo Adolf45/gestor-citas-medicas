@@ -1,18 +1,24 @@
 import React from 'react'
 import { useState } from 'react';
 import { InputPasswordToggle } from '../components/input/InputPasswordToggle';
+import { Form } from '../utils/form';
 
 export const ResetPasswordSuccessPage = () => {
     const [error, setError] = useState(false);
 
     function HandleSubmit (e){
+        const {HandleSubmit} = Form();
             e.preventDefault();
             const newPassword = e.target['new-password'].value;
             const newConfirmPassword = e.target['new-confirm-password'].value;
             if(newPassword !== newConfirmPassword){
                 setError(true);
                 return
-            }}
+            }
+            setError(false);
+            HandleSubmit(e);
+        }
+
   return (
     <main className='h-dvh w-full flex flex-col items-center justify-center'>
             <section className='flex flex-col gap-3 w-md border-2 border-gray-200 py-10 px-5 rounded-md shadow-md'>

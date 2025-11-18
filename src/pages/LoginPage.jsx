@@ -4,14 +4,13 @@ import { FaUserCheck } from "react-icons/fa";
 import { InputPasswordToggle } from "../components/input/InputPasswordToggle";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext.jsx";
+import { Form } from "../utils/form.js";
 
 export const LoginPage = () =>{
   const {SignIn,error} = useContext(AuthContext);
    const HandleSubmit = (e) => {
-        e.preventDefault();
-        const formData = new FormData(e.target);
-        const data = Object.fromEntries(formData.entries());
-        console.log(data);
+        const {HandleSubmit} = Form();
+        const data = HandleSubmit(e);
         SignIn(data);
     }
 

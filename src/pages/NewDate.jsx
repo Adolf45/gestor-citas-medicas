@@ -3,14 +3,13 @@ import { FaUserCheck } from "react-icons/fa";
 import { FaRegCalendar } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { AiOutlineBook } from "react-icons/ai";
+import { Form } from '../utils/form';
 
 export const NewDate = () => {
 
     function HandleSubmitCreateDate(e){
-        e.preventDefault();
-        const formData = new FormData(e.target);
-        const data = Object.fromEntries(formData.entries());
-        console.log(data);
+      const {HandleSubmit} = Form();
+      const dataForm = HandleSubmit(e);
     }
   return (
     <main className="min-h-screen flex flex-col items-center  py-10">
@@ -22,15 +21,15 @@ export const NewDate = () => {
          <form onSubmit={HandleSubmitCreateDate}>
 
          <div>
-            <label htmlFor="name-patient">Nombre del paciente</label>
+            <label htmlFor="namePatient">Nombre del paciente</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
                      <FaUserCheck size={20}/>
                       <input 
                       type="text" 
                       placeholder='Ingresa el nombre del paciente' 
                       required
-                      id='name-patient'
-                      name='name-patient'
+                      id='namePatient'
+                      name='namePatient'
                       className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
             </div>
          </div>
@@ -38,33 +37,33 @@ export const NewDate = () => {
          <div className='flex w-full justify-between max-md:flex-col'>
 
             <div>
-            <label htmlFor="date-patient">Fecha de la cita</label>
+            <label htmlFor="datePatient">Fecha de la cita</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
                      <FaRegCalendar size={20}/>
                       <input 
                       type="date" 
-                      name='date-patient'
+                      name='datePatient'
                       required
                       placeholder='Usuario o correo electrónico' 
-                      id='date-patient'
+                      id='datePatient'
                       className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
             </div>
          </div>
 
          <div>
-            <label htmlFor="time-patient">Hora de la cita</label>
+            <label htmlFor="timePatient">Hora de la cita</label>
             <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
                      <IoMdTime size={25}/>
                       <input 
                       type="time" 
                       required
-                      name='time-patient'
+                      name='timePatient'
                       placeholder='Usuario o correo electrónico' 
-                      id='time-patient'
+                      id='timePatient'
                       className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
 
                      <div>
-                        <select name="meridiem-patient" id="meridiem-patient" className='focus:outline-none focus:ring-0'>
+                        <select name="meridiemPatient" id="meridiemPatient" className='focus:outline-none focus:ring-0'>
                             <option value="AM">AM</option>
                             <option value="PM">PM</option>
                         </select>
@@ -74,23 +73,23 @@ export const NewDate = () => {
 
          </div>
 
-        <div>
-            <label htmlFor="reason-patient">Motivo de la cita</label>
-            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <AiOutlineBook size={20}/>
-                      <input 
-                      type="text" 
-                      name='reason-patient'
-                      required
-                      placeholder='Introduce el motivo de la cita' 
-                      id='reason-patient'
-                      className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
-            </div>
+      <div>
+         <label htmlFor="reasonPatient">Motivo de la cita</label>
+         <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
+                <AiOutlineBook size={20}/>
+                 <input 
+                 type="text" 
+                 name='reasonPatient'
+                 required
+                 placeholder='Introduce el motivo de la cita' 
+                 id='reasonPatient'
+                 className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
          </div>
+       </div>
 
          <div className='flex flex-col'>
-            <label htmlFor="note-patient">Notas adicionales</label>
-            <textarea name="note-patient" id="note-patient" rows={5} placeholder='Introduce Notas adicionales'
+            <label htmlFor="notePatient">Notas adicionales</label>
+            <textarea name="notePatient" id="notePatient" rows={5} placeholder='Introduce Notas adicionales'
             className='p-2 border-2 border-gray-200 rounded-md focus:outline-none focus:ring-0 mt-2' required
             ></textarea>
          </div>

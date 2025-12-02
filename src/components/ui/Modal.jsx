@@ -22,12 +22,12 @@ function AcceptDonation () {
       {/* Modal */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+          className=" overflow-y-auto fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
           onClick={closeModal}
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="flex flex-col items-center  relative w-full max-w-md p-6 rounded-2xl shadow-lg bg-white dark:bg-slate-900 dark:text-gray-100 transition-all"
+            className="w-fit flex flex-col items-center  relative p-6 rounded-2xl shadow-lg bg-white dark:bg-slate-900 dark:text-gray-100 transition-all"
           >
             {/* Botón cerrar */}
             <button
@@ -45,7 +45,7 @@ function AcceptDonation () {
             )}
 
             {/* Contenido */}
-            <div>{children}</div>
+            <div className="w-lg max-md:w-full max-h-fit">{children}</div>
           <button
         onClick={AcceptDonation}
         className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition my-3

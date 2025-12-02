@@ -4,12 +4,14 @@ import { FaUserDoctor } from 'react-icons/fa6';
 import { FaHandHoldingMedical } from 'react-icons/fa6';
 import { InputPasswordToggle } from "../components/input/InputPasswordToggle";
 import { Form } from '../utils/form';
+import { Input } from '../components/input/Input';
 
 
 export const RegistroPage = () =>{
    const HandleSubmit = (e) => {
         const {HandleSubmit} = Form();
         const dataForm = HandleSubmit(e);
+        console.log(dataForm);
     }
 
   return (
@@ -20,29 +22,33 @@ export const RegistroPage = () =>{
       <h2 className='text-center text-2xl mb-6'>Crear cuenta</h2>
      
       <form action="" onSubmit={HandleSubmit} className='flex flex-col justify-center items-center'>
-              <div className='flex justify-center items-center border-b-2 border-gray-200 mb-3 w-fit p-2 gap-4 mt-4'>
-               <FaUserCheck size={20}/>
-                <input 
-                type="email" 
-                placeholder='Usuario o correo electrónico' 
-                className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0' />
-                </div>
-                <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-fit p-2 gap-4 mt-4'>
-               <FaUserDoctor size={20}/>  
-                <input 
-                type="text" 
-                placeholder='Nombre' 
-                className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0' />
-                </div>
-              <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-fit p-2 gap-4'>
-              <FaHandHoldingMedical size={20}/>
-              <input
-              type="text"
-              placeholder='Especialidad'
-             className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0'/>
-            </div>
-            <InputPasswordToggle placeholder={'Ingresa tu contraseña'} id={'create-password'}/>
-            <InputPasswordToggle placeholder={'Confirma tu contraseña'} id={'create-confirm-password'}/>
+        <Input
+        type="email"
+        placeholder="Correo electronico"
+        icon={<FaUserCheck size={20}/>}
+        name="createEmail"
+        id="createEmail"
+        desingDiv="mb-6"
+        />
+
+        <Input
+        type="text"
+        placeholder="Nombre completo"
+        icon={<FaUserDoctor size={20}/>}
+        name="createDoctor"
+        id="createDoctor"
+        desingDiv="mb-6"
+        />
+        <Input
+        type="text"
+        placeholder="Especialidad"
+        icon={<FaHandHoldingMedical size={20}/>}
+        name="createSpecialty"
+        id="createSpecialty"
+        desingDiv="mb-6"
+        />
+            <InputPasswordToggle placeholder={'Ingresa tu contraseña'} id={'createPassword'}/>
+            <InputPasswordToggle placeholder={'Confirma tu contraseña'} id={'confirmPassword'}/>
 
                <button className='w-[80%] p-1 border-[#60D956] border-1 rounded-xs text-[#60D956] font-bold shadow-md'>Ingresar</button>
       

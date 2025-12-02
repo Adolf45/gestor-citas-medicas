@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { InputPasswordToggle } from '../components/input/InputPasswordToggle';
 import { Form } from '../utils/form';
+import { Input } from '../components/input/Input';
 
 export const ResetPasswordSuccessPage = () => {
     const [error, setError] = useState(false);

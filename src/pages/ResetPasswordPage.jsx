@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdEmail } from "react-icons/md";
 import { Form } from '../utils/form';
+import { Input } from '../components/input/Input';
 
 export const ResetPasswordPage = () => {
     const HandleSubmit = (e) => {
@@ -18,11 +19,15 @@ export const ResetPasswordPage = () => {
             </p>
 
             <form action="" onSubmit={HandleSubmit} className='flex flex-col justify-center items-center'>
-                <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-fit p-2 gap-4'>
-                    <MdEmail size={20}/>
-                    <input type="email" placeholder='Usuario o Correo electronico' className='w-[220px] overflow-ellipsis focus:outline-none focus:ring-0' />
-                </div>
-
+                <Input
+                        placeholder="Correo electronico"
+                        type="email"
+                        name="email"
+                        icon={<MdEmail size={20}/>}
+                        required={true}
+                        desingDiv="w-fit mb-6 mt-4"
+                        desingInput="w-[220px]"
+                        />
                 <button className='w-[80%] p-1 border-[#60D956] border-1 rounded-xs text-[#60D956] font-bold shadow-md'>Continuar</button>
             </form>
         </section>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { ContainerToday } from '../UI/DashboardDateTodayPage/ContainerToday'
-import { DashboardDateToday } from '../UI/DashboardDateTodayPage/DashboardDateToday'
+import { ContainerToday } from '../Layout/DashboardDateTodayPage/ContainerToday'
+import { DashboardDateToday } from '../Layout/DashboardDateTodayPage/DashboardDateToday'
 
 export const DashboardDateTodayPage = () => {
   return (

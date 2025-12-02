@@ -4,6 +4,7 @@ import { FaRegCalendar } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { AiOutlineBook } from "react-icons/ai";
 import { Form } from '../utils/form';
+import { Input } from '../components/input/Input';
 
 export const NewDate = () => {
 
@@ -22,69 +23,70 @@ export const NewDate = () => {
 
          <div>
             <label htmlFor="namePatient">Nombre del paciente</label>
-            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <FaUserCheck size={20}/>
-                      <input 
-                      type="text" 
-                      placeholder='Ingresa el nombre del paciente' 
-                      required
-                      id='namePatient'
-                      name='namePatient'
-                      className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
-            </div>
+
+            <Input
+            icon={<FaUserCheck size={20}/>}
+            type="text" 
+            placeholder='Ingresa el nombre del paciente' 
+            required
+            id='namePatient'
+            name='namePatient'
+            desingDiv='w-full mb-6 mt-4'
+            desingInput='w-full'
+            />
          </div>
 
          <div className='flex w-full justify-between max-md:flex-col'>
 
             <div>
             <label htmlFor="datePatient">Fecha de la cita</label>
-            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <FaRegCalendar size={20}/>
-                      <input 
-                      type="date" 
-                      name='datePatient'
-                      required
-                      placeholder='Usuario o correo electrónico' 
-                      id='datePatient'
-                      className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
-            </div>
+            <Input 
+            icon={<FaRegCalendar size={20}/>}
+            type="date" 
+            name='datePatient'
+            required
+            placeholder='Usuario o correo electrónico' 
+            id='datePatient'
+            desingDiv='w-full mb-6 mt-4'
+            desingInput='w-full'
+            />
          </div>
 
          <div>
             <label htmlFor="timePatient">Hora de la cita</label>
-            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                     <IoMdTime size={25}/>
-                      <input 
-                      type="time" 
-                      required
-                      name='timePatient'
-                      placeholder='Usuario o correo electrónico' 
-                      id='timePatient'
-                      className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
-
+            <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 mt-4'>
+                     <Input
+                     icon={<IoMdTime size={25}/>}
+                     type="time" 
+                     required
+                     name='timePatient'
+                     placeholder='Usuario o correo electrónico' 
+                     id='timePatient'
+                     desingDiv='w-full border-none'
+                     desingInput='w-full'
+                     />
                      <div>
-                        <select name="meridiemPatient" id="meridiemPatient" className='focus:outline-none focus:ring-0'>
+                        <select name="meridiemPatient" id="meridiemPatient" className='focus:outline-none focus:ring-0 p-2'>
                             <option value="AM">AM</option>
                             <option value="PM">PM</option>
                         </select>
                      </div>
             </div>
+            </div>
          </div>
 
-         </div>
 
       <div>
          <label htmlFor="reasonPatient">Motivo de la cita</label>
-         <div className='flex justify-center items-center border-b-2 border-gray-200 mb-6 w-full p-2 gap-4 mt-4'>
-                <AiOutlineBook size={20}/>
-                 <input 
-                 type="text" 
-                 name='reasonPatient'
-                 required
-                 placeholder='Introduce el motivo de la cita' 
-                 id='reasonPatient'
-                 className='w-full overflow-ellipsis focus:outline-none focus:ring-0' />
-         </div>
+         <Input
+            icon={<AiOutlineBook size={20}/>}
+            type="text" 
+            name='reasonPatient'
+            placeholder='Introduce el motivo de la cita' 
+            id='reasonPatient'
+            desingDiv='w-full mb-6 mt-4'
+            desingInput='w-full'
+         />
        </div>
 
          <div className='flex flex-col'>

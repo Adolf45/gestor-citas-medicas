@@ -1,5 +1,5 @@
-import { Header } from "./UI/Header"
-import { Footer } from "./UI/Footer"
+import { Header } from "./Layout/Header"
+import { Footer } from "./Layout/Footer"
 import { Rutas } from "./routes/Rutas"
 import { AuthProvider } from "./context/AuthContext"
 

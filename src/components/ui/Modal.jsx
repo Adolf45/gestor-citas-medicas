@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 
-export const Modal = ({ title, buttonText, children,url }) => {
+export const Modal = ({ title, buttonText, children,url,buttonOpen = "Aceptar" }) => {
   const [isOpen, setIsOpen] = useState(false);
 function AcceptDonation () {
     if(url) window.open(url)
@@ -27,7 +27,7 @@ function AcceptDonation () {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="w-fit flex flex-col items-center  relative p-6 rounded-2xl shadow-lg bg-white dark:bg-slate-900 dark:text-gray-100 transition-all"
+            className="max-md:w-[80%] flex flex-col items-center  relative p-6 rounded-2xl shadow-lg bg-white dark:bg-slate-900 dark:text-gray-100 transition-all"
           >
             {/* Botón cerrar */}
             <button
@@ -51,7 +51,7 @@ function AcceptDonation () {
         className="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition my-3
         cursor-pointer"
       >
-        Aceptar
+        {buttonOpen}
       </button>
           </div>
         </div>

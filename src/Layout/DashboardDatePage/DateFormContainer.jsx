@@ -3,15 +3,14 @@ import { DateSearchInput } from "./DateSearchInput";
 import { FiCalendar, FiClock } from "react-icons/fi";
 import { DateFilterAndSorter } from "../../components/ui/DateFilterAndSorter";
 
-export const DateFormContainer = ({search,setSearch}) => {
+export const DateFormContainer = ({search,setSearch,goToPage}) => {
     const SubmitToFilter = (e) => {
     e.preventDefault();
-    console.log("Filtros aplicados" );
     }
   return (
     <form className="w-full max-w-5xl bg-purple-100 rounded-2xl p-4 flex flex-wrap gap-3 items-center justify-between shadow-sm mt-4" onSubmit={SubmitToFilter}>
     
-      <DateSearchInput search={search} setSearch={setSearch}/>
+      <DateSearchInput search={search} setSearch={setSearch} goToPage={goToPage}/>
 
       <div className="flex gap-3">
         <DateFilterAndSorter

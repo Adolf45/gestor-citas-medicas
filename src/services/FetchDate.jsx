@@ -14,7 +14,6 @@ export const FetchDate = ({url}) => {
     const res = await fetch(url);
     const json = await res.json();
     setData(json || []);
-    console.log(json);
     }
     catch (err) {
         setError(err);

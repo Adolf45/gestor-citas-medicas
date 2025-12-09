@@ -15,7 +15,7 @@ export const DateItem = ({ data }) => {
       </td>
       <td className="p-3 flex justify-end gap-3 pr-6">
         <Modal
-          title={"Cita"}
+          title={null}
           children={<PatientInfo data={data} />}
           buttonText={
             <FiEye className="w-4 h-4 text-blue-500 cursor-pointer" />
@@ -24,6 +24,7 @@ export const DateItem = ({ data }) => {
         <Modal
           title={"Cita"}
           children={<DateEdit data={data} />}
+          buttonOpen="Cerrar"
           buttonText={
             <FiEdit className="w-4 h-4 text-blue-500 cursor-pointer" />
           }

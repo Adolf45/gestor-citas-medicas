@@ -11,6 +11,7 @@ export const NewDate = () => {
     function HandleSubmitCreateDate(e){
       const {HandleSubmit} = Form();
       const dataForm = HandleSubmit(e);
+      console.log(dataForm)
     }
   return (
     <main className="min-h-screen flex flex-col items-center  py-10">

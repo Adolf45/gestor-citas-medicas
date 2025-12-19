@@ -11,7 +11,7 @@ export const PatientInfo = ({ data }) => {
 
       <div className="flex gap-5">
         <InfoField label={"Fecha"} data={data.datePatient}/>
-        <InfoField label={"Fecha"} data={data.timePatient + data.meridiemPatient}/>
+        <InfoField label={"Hora"} data={data.timePatient + data.meridiemPatient}/>
       </div>
 
       <InfoField label={"Motivo de la consulta"} data={data.reasonPatient}/>

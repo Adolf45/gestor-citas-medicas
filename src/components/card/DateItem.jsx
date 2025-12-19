@@ -20,6 +20,7 @@ export const DateItem = ({ data }) => {
           buttonText={
             <FiEye className="w-4 h-4 text-blue-500 cursor-pointer" />
           }
+          buttonOpen="Cerrar"
         />
         <Modal
           title={"Cita"}

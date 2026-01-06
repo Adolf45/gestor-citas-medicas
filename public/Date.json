@@ -5,7 +5,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Chequeo general",
-    "notePatient": "Paciente con historial de presión alta"
+    "notePatient": "Paciente con historial de presión alta",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ana Gómez",
@@ -13,7 +15,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Consulta por dolor de cabeza",
-    "notePatient": "Reporta migrañas recurrentes"
+    "notePatient": "Reporta migrañas recurrentes",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Javier Torres",
@@ -21,7 +25,9 @@
     "timePatient": "11:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Revisión post-operatoria",
-    "notePatient": "Cirugía de rodilla hace 3 semanas"
+    "notePatient": "Cirugía de rodilla hace 3 semanas",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "María López",
@@ -29,7 +35,9 @@
     "timePatient": "02:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Vacunación anual",
-    "notePatient": "Alergia conocida a la penicilina"
+    "notePatient": "Alergia conocida a la penicilina",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ricardo Soto",
@@ -37,7 +45,9 @@
     "timePatient": "04:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Análisis de rutina",
-    "notePatient": "Ayuno de 12 horas requerido"
+    "notePatient": "Ayuno de 12 horas requerido",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Elena Vidal",
@@ -45,7 +55,9 @@
     "timePatient": "08:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Fisioterapia",
-    "notePatient": "Rehabilitación de hombro"
+    "notePatient": "Rehabilitación de hombro",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Pedro Ruiz",
@@ -53,7 +65,9 @@
     "timePatient": "09:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Examen de la vista",
-    "notePatient": "Necesita un nuevo par de lentes"
+    "notePatient": "Necesita un nuevo par de lentes",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Laura Castro",
@@ -61,7 +75,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Control de embarazo",
-    "notePatient": "28 semanas de gestación"
+    "notePatient": "28 semanas de gestación",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Felipe Díaz",
@@ -69,7 +85,9 @@
     "timePatient": "01:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Dermatología",
-    "notePatient": "Consulta por acné severo"
+    "notePatient": "Consulta por acné severo",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Sofía Reyes",
@@ -77,7 +95,9 @@
     "timePatient": "03:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Estudio de sueño",
-    "notePatient": "Reporta apnea del sueño"
+    "notePatient": "Reporta apnea del sueño",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Miguel Ángel",
@@ -85,7 +105,9 @@
     "timePatient": "09:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Cardiología",
-    "notePatient": "Evaluación de taquicardia"
+    "notePatient": "Evaluación de taquicardia",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Carmen Núñez",
@@ -93,7 +115,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Pediatría",
-    "notePatient": "Control de niño sano (6 meses)"
+    "notePatient": "Control de niño sano (6 meses)",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Andrés Gil",
@@ -101,7 +125,9 @@
     "timePatient": "01:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Odontología",
-    "notePatient": "Limpieza y revisión dental"
+    "notePatient": "Limpieza y revisión dental",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Diana Ramos",
@@ -109,7 +135,9 @@
     "timePatient": "03:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Nutrición",
-    "notePatient": "Plan de alimentación para diabetes"
+    "notePatient": "Plan de alimentación para diabetes",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Gabriel Vega",
@@ -117,7 +145,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Neurología",
-    "notePatient": "Consulta por temblores"
+    "notePatient": "Consulta por temblores",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Hilda Marín",
@@ -125,7 +155,9 @@
     "timePatient": "10:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Ginecología",
-    "notePatient": "Chequeo anual y Papanicolau"
+    "notePatient": "Chequeo anual y Papanicolau",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Iván López",
@@ -133,7 +165,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Urología",
-    "notePatient": "Problemas al orinar"
+    "notePatient": "Problemas al orinar",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Juana Cruz",
@@ -141,7 +175,9 @@
     "timePatient": "02:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Psicología",
-    "notePatient": "Terapia de manejo de estrés"
+    "notePatient": "Terapia de manejo de estrés",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Kevin Salas",
@@ -149,7 +185,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Otorrinolaringología",
-    "notePatient": "Dolor de garganta persistente"
+    "notePatient": "Dolor de garganta persistente",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Lina Pérez",
@@ -157,7 +195,9 @@
     "timePatient": "04:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Terapia ocupacional",
-    "notePatient": "Rehabilitación de mano"
+    "notePatient": "Rehabilitación de mano",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Mario Fuentes",
@@ -165,7 +205,9 @@
     "timePatient": "08:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Medicina Interna",
-    "notePatient": "Evaluación de fatiga crónica"
+    "notePatient": "Evaluación de fatiga crónica",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Nora Ramos",
@@ -173,7 +215,9 @@
     "timePatient": "11:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Endocrinología",
-    "notePatient": "Control de tiroides"
+    "notePatient": "Control de tiroides",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Oscar Vidal",
@@ -181,7 +225,9 @@
     "timePatient": "01:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Reumatología",
-    "notePatient": "Dolor en articulaciones"
+    "notePatient": "Dolor en articulaciones",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Paula Gil",
@@ -189,7 +235,9 @@
     "timePatient": "09:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Cirugía general",
-    "notePatient": "Consulta pre-quirúrgica"
+    "notePatient": "Consulta pre-quirúrgica",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Quique Soto",
@@ -197,7 +245,9 @@
     "timePatient": "03:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Medicina deportiva",
-    "notePatient": "Lesión de tobillo jugando fútbol"
+    "notePatient": "Lesión de tobillo jugando fútbol",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Rosa Núñez",
@@ -205,7 +255,9 @@
     "timePatient": "10:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Laboratorio",
-    "notePatient": "Prueba de glucosa"
+    "notePatient": "Prueba de glucosa",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Santiago Torres",
@@ -213,7 +265,9 @@
     "timePatient": "12:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Traumatología",
-    "notePatient": "Seguimiento de fractura"
+    "notePatient": "Seguimiento de fractura",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Tania Marín",
@@ -221,7 +275,9 @@
     "timePatient": "04:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Radiología",
-    "notePatient": "Ultrasonido abdominal"
+    "notePatient": "Ultrasonido abdominal",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ulises Castro",
@@ -229,7 +285,9 @@
     "timePatient": "08:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Oftalmología",
-    "notePatient": "Control de glaucoma"
+    "notePatient": "Control de glaucoma",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Valeria Díaz",
@@ -237,7 +295,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Infectología",
-    "notePatient": "Consulta de seguimiento"
+    "notePatient": "Consulta de seguimiento",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Wilson Gil",
@@ -245,7 +305,9 @@
     "timePatient": "02:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Geriatría",
-    "notePatient": "Evaluación general (80 años)"
+    "notePatient": "Evaluación general (80 años)",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ximena López",
@@ -253,7 +315,9 @@
     "timePatient": "09:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Alergología",
-    "notePatient": "Pruebas de alergia alimentaria"
+    "notePatient": "Pruebas de alergia alimentaria",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Yago Vega",
@@ -261,7 +325,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Nefrología",
-    "notePatient": "Control de función renal"
+    "notePatient": "Control de función renal",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Zoe Cruz",
@@ -269,7 +335,9 @@
     "timePatient": "03:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Gastroenterología",
-    "notePatient": "Consulta por reflujo"
+    "notePatient": "Consulta por reflujo",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Alejandro Pérez",
@@ -277,7 +345,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Dermatología",
-    "notePatient": "Revisión de lunares"
+    "notePatient": "Revisión de lunares",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Beatriz Soto",
@@ -285,7 +355,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Fisioterapia",
-    "notePatient": "Dolor crónico de espalda"
+    "notePatient": "Dolor crónico de espalda",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Camilo Torres",
@@ -293,7 +365,9 @@
     "timePatient": "01:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Odontología",
-    "notePatient": "Extracción de muela del juicio"
+    "notePatient": "Extracción de muela del juicio",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Daniela López",
@@ -301,7 +375,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Chequeo general",
-    "notePatient": "Consulta de seguimiento"
+    "notePatient": "Consulta de seguimiento",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Emilio Vidal",
@@ -309,7 +385,9 @@
     "timePatient": "11:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Consulta por gripe",
-    "notePatient": "Fiebre y tos por 3 días"
+    "notePatient": "Fiebre y tos por 3 días",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Fernanda Ruiz",
@@ -317,7 +395,9 @@
     "timePatient": "02:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Terapia ocupacional",
-    "notePatient": "Lesión de muñeca"
+    "notePatient": "Lesión de muñeca",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Gustavo Castro",
@@ -325,7 +405,9 @@
     "timePatient": "08:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Cardiología",
-    "notePatient": "Electrocardiograma de rutina"
+    "notePatient": "Electrocardiograma de rutina",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Helena Díaz",
@@ -333,7 +415,9 @@
     "timePatient": "10:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Pediatría",
-    "notePatient": "Vacunas de 4 años"
+    "notePatient": "Vacunas de 4 años",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ignacio Reyes",
@@ -341,7 +425,9 @@
     "timePatient": "01:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Nutrición",
-    "notePatient": "Evaluación de dieta deportiva"
+    "notePatient": "Evaluación de dieta deportiva",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Julieta Núñez",
@@ -349,7 +435,9 @@
     "timePatient": "09:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Neurología",
-    "notePatient": "Revisión de historial de convulsiones"
+    "notePatient": "Revisión de historial de convulsiones",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Klaus Ramos",
@@ -357,7 +445,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Urología",
-    "notePatient": "Chequeo de próstata"
+    "notePatient": "Chequeo de próstata",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Leticia Marín",
@@ -365,7 +455,9 @@
     "timePatient": "03:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Ginecología",
-    "notePatient": "Inserción de DIU"
+    "notePatient": "Inserción de DIU",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Marcos Vega",
@@ -373,7 +465,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Psicología",
-    "notePatient": "Seguimiento de terapia de duelo"
+    "notePatient": "Seguimiento de terapia de duelo",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Natalia Cruz",
@@ -381,7 +475,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Otorrinolaringología",
-    "notePatient": "Limpieza de oído"
+    "notePatient": "Limpieza de oído",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Omar Pérez",
@@ -389,7 +485,9 @@
     "timePatient": "01:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Medicina Interna",
-    "notePatient": "Evaluación de resultados de laboratorio"
+    "notePatient": "Evaluación de resultados de laboratorio",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Patricia Soto",
@@ -397,7 +495,9 @@
     "timePatient": "09:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Endocrinología",
-    "notePatient": "Ajuste de dosis de insulina"
+    "notePatient": "Ajuste de dosis de insulina",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Raúl Torres",
@@ -405,7 +505,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Reumatología",
-    "notePatient": "Infiltración en codo"
+    "notePatient": "Infiltración en codo",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Silvia López",
@@ -413,7 +515,9 @@
     "timePatient": "02:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Cirugía general",
-    "notePatient": "Retiro de puntos"
+    "notePatient": "Retiro de puntos",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Tomás Vidal",
@@ -421,7 +525,9 @@
     "timePatient": "08:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Medicina deportiva",
-    "notePatient": "Revisión de esguince"
+    "notePatient": "Revisión de esguince",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Úrsula Ruiz",
@@ -429,7 +535,9 @@
     "timePatient": "10:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Laboratorio",
-    "notePatient": "Perfil lipídico"
+    "notePatient": "Perfil lipídico",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Víctor Castro",
@@ -437,7 +545,9 @@
     "timePatient": "01:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Traumatología",
-    "notePatient": "Colocación de férula"
+    "notePatient": "Colocación de férula",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Wendy Díaz",
@@ -445,7 +555,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Radiología",
-    "notePatient": "Resonancia magnética de columna"
+    "notePatient": "Resonancia magnética de columna",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Xavier Reyes",
@@ -453,7 +565,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Oftalmología",
-    "notePatient": "Cirugía de cataratas"
+    "notePatient": "Cirugía de cataratas",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Yolanda Núñez",
@@ -461,7 +575,9 @@
     "timePatient": "03:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Infectología",
-    "notePatient": "Prueba de detección de COVID-19"
+    "notePatient": "Prueba de detección de COVID-19",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Zacarías Marín",
@@ -469,7 +585,9 @@
     "timePatient": "08:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Geriatría",
-    "notePatient": "Control de medicamentos"
+    "notePatient": "Control de medicamentos",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Alicia Vega",
@@ -477,7 +595,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Alergología",
-    "notePatient": "Inmunoterapia (primera dosis)"
+    "notePatient": "Inmunoterapia (primera dosis)",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Benito Cruz",
@@ -485,7 +605,9 @@
     "timePatient": "01:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Nefrología",
-    "notePatient": "Diálisis programada"
+    "notePatient": "Diálisis programada",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Cecilia Pérez",
@@ -493,7 +615,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Gastroenterología",
-    "notePatient": "Endoscopia"
+    "notePatient": "Endoscopia",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "David Soto",
@@ -501,7 +625,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Dermatología",
-    "notePatient": "Tratamiento con láser"
+    "notePatient": "Tratamiento con láser",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Eva Torres",
@@ -509,7 +635,9 @@
     "timePatient": "02:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Fisioterapia",
-    "notePatient": "Masaje terapéutico"
+    "notePatient": "Masaje terapéutico",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Fabián López",
@@ -517,7 +645,9 @@
     "timePatient": "08:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Odontología",
-    "notePatient": "Blanqueamiento dental"
+    "notePatient": "Blanqueamiento dental",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Gisela Vidal",
@@ -525,7 +655,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Chequeo general",
-    "notePatient": "Examen físico anual"
+    "notePatient": "Examen físico anual",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Hugo Ruiz",
@@ -533,7 +665,9 @@
     "timePatient": "01:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Consulta por dolor de espalda",
-    "notePatient": "Dolor lumbar crónico"
+    "notePatient": "Dolor lumbar crónico",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Irene Castro",
@@ -541,7 +675,9 @@
     "timePatient": "09:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Cardiología",
-    "notePatient": "Prueba de esfuerzo"
+    "notePatient": "Prueba de esfuerzo",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Juan Díaz",
@@ -549,7 +685,9 @@
     "timePatient": "11:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Pediatría",
-    "notePatient": "Bronquitis"
+    "notePatient": "Bronquitis",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Karla Reyes",
@@ -557,7 +695,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Nutrición",
-    "notePatient": "Control de peso"
+    "notePatient": "Control de peso",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Luis Núñez",
@@ -565,7 +705,9 @@
     "timePatient": "02:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Neurología",
-    "notePatient": "Punción lumbar"
+    "notePatient": "Punción lumbar",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Mónica Ramos",
@@ -573,7 +715,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Urología",
-    "notePatient": "Cálculos renales"
+    "notePatient": "Cálculos renales",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Néstor Marín",
@@ -581,7 +725,9 @@
     "timePatient": "10:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Ginecología",
-    "notePatient": "Revisión post-parto"
+    "notePatient": "Revisión post-parto",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Olivia Vega",
@@ -589,7 +735,9 @@
     "timePatient": "01:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Psicología",
-    "notePatient": "Terapia de pareja"
+    "notePatient": "Terapia de pareja",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Pablo Cruz",
@@ -597,7 +745,9 @@
     "timePatient": "09:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Otorrinolaringología",
-    "notePatient": "Estudio de audición"
+    "notePatient": "Estudio de audición",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Quim Pérez",
@@ -605,7 +755,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Medicina Interna",
-    "notePatient": "Monitoreo de presión arterial"
+    "notePatient": "Monitoreo de presión arterial",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Rocío Soto",
@@ -613,7 +765,9 @@
     "timePatient": "03:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Endocrinología",
-    "notePatient": "Análisis de hormonas"
+    "notePatient": "Análisis de hormonas",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Saúl Torres",
@@ -621,15 +775,19 @@
     "timePatient": "08:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Reumatología",
-    "notePatient": "Examen de artritis"
+    "notePatient": "Examen de artritis",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Teresa López",
     "datePatient": "2026-01-02",
     "timePatient": "10:00",
-    "meridiemPatient": "AM",
+    "AM": "AM",
     "reasonPatient": "Cirugía general",
-    "notePatient": "Extirpación de quiste"
+    "notePatient": "Extirpación de quiste",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Uriel Vidal",
@@ -637,7 +795,9 @@
     "timePatient": "01:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Medicina deportiva",
-    "notePatient": "Evaluación de rendimiento"
+    "notePatient": "Evaluación de rendimiento",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Violeta Ruiz",
@@ -645,7 +805,9 @@
     "timePatient": "09:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Laboratorio",
-    "notePatient": "Cultivo de orina"
+    "notePatient": "Cultivo de orina",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Walter Castro",
@@ -653,7 +815,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Traumatología",
-    "notePatient": "Cambio de yeso"
+    "notePatient": "Cambio de yeso",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Yessica Díaz",
@@ -661,7 +825,9 @@
     "timePatient": "02:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Radiología",
-    "notePatient": "Tomografía computarizada"
+    "notePatient": "Tomografía computarizada",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Ángel Reyes",
@@ -669,7 +835,9 @@
     "timePatient": "08:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Oftalmología",
-    "notePatient": "Control de lentes de contacto"
+    "notePatient": "Control de lentes de contacto",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Blanca Núñez",
@@ -677,7 +845,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Infectología",
-    "notePatient": "Seguimiento de tratamiento antibiótico"
+    "notePatient": "Seguimiento de tratamiento antibiótico",
+    "isCancelled": true,
+    "isAttended": false
   },
   {
     "namePatient": "César Marín",
@@ -685,7 +855,9 @@
     "timePatient": "12:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Geriatría",
-    "notePatient": "Revisión de movilidad"
+    "notePatient": "Revisión de movilidad",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Dalia Vega",
@@ -693,7 +865,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Alergología",
-    "notePatient": "Vacunas antialérgicas (dosis 2)"
+    "notePatient": "Vacunas antialérgicas (dosis 2)",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Efrén Cruz",
@@ -701,7 +875,9 @@
     "timePatient": "11:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Nefrología",
-    "notePatient": "Monitoreo de hipertensión"
+    "notePatient": "Monitoreo de hipertensión",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Fátima Pérez",
@@ -709,7 +885,9 @@
     "timePatient": "02:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Gastroenterología",
-    "notePatient": "Consulta por estreñimiento"
+    "notePatient": "Consulta por estreñimiento",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Guillermo Soto",
@@ -717,7 +895,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Dermatología",
-    "notePatient": "Biopsia de piel"
+    "notePatient": "Biopsia de piel",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Héctor Torres",
@@ -725,7 +905,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Fisioterapia",
-    "notePatient": "Post-quirúrgico de cadera"
+    "notePatient": "Post-quirúrgico de cadera",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Isabel López",
@@ -733,7 +915,9 @@
     "timePatient": "01:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Odontología",
-    "notePatient": "Revisión de ortodoncia"
+    "notePatient": "Revisión de ortodoncia",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Jesús Vidal",
@@ -741,7 +925,9 @@
     "timePatient": "09:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Chequeo general",
-    "notePatient": "Control de diabetes tipo 2"
+    "notePatient": "Control de diabetes tipo 2",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Karen Ruiz",
@@ -749,7 +935,9 @@
     "timePatient": "11:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Consulta por tos seca",
-    "notePatient": "Persiste por más de 1 semana"
+    "notePatient": "Persiste por más de 1 semana",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Leo Castro",
@@ -757,7 +945,9 @@
     "timePatient": "03:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Terapia ocupacional",
-    "notePatient": "Evaluación de destrezas motoras"
+    "notePatient": "Evaluación de destrezas motoras",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Marta Díaz",
@@ -765,7 +955,9 @@
     "timePatient": "08:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Cardiología",
-    "notePatient": "Colocación de holter"
+    "notePatient": "Colocación de holter",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Nuria Reyes",
@@ -773,7 +965,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Pediatría",
-    "notePatient": "Dermatitis atópica"
+    "notePatient": "Dermatitis atópica",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Óliver Núñez",
@@ -781,7 +975,9 @@
     "timePatient": "01:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Nutrición",
-    "notePatient": "Seguimiento de plan vegetariano"
+    "notePatient": "Seguimiento de plan vegetariano",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Pilar Ramos",
@@ -789,7 +985,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Neurología",
-    "notePatient": "Migrañas crónicas"
+    "notePatient": "Migrañas crónicas",
+    "isCancelled": false,
+    "isAttended": true
   },
   {
     "namePatient": "Quintín Marín",
@@ -797,7 +995,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Urología",
-    "notePatient": "Infección de vías urinarias"
+    "notePatient": "Infección de vías urinarias",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Rebeca Vega",
@@ -805,7 +1005,9 @@
     "timePatient": "02:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Ginecología",
-    "notePatient": "Colposcopia"
+    "notePatient": "Colposcopia",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Samuel Cruz",
@@ -813,7 +1015,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Psicología",
-    "notePatient": "Primera sesión de terapia"
+    "notePatient": "Primera sesión de terapia",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Tania Pérez",
@@ -821,7 +1025,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Otorrinolaringología",
-    "notePatient": "Vértigo"
+    "notePatient": "Vértigo",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Ubaldo Soto",
@@ -829,7 +1035,9 @@
     "timePatient": "01:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Medicina Interna",
-    "notePatient": "Control de colesterol"
+    "notePatient": "Control de colesterol",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Vanesa Torres",
@@ -837,7 +1045,9 @@
     "timePatient": "09:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Endocrinología",
-    "notePatient": "Revisión de osteoporosis"
+    "notePatient": "Revisión de osteoporosis",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Wifredo López",
@@ -845,7 +1055,9 @@
     "timePatient": "11:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Reumatología",
-    "notePatient": "Seguimiento de lupus"
+    "notePatient": "Seguimiento de lupus",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Yanira Vidal",
@@ -853,7 +1065,9 @@
     "timePatient": "02:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Cirugía general",
-    "notePatient": "Consulta por hernia"
+    "notePatient": "Consulta por hernia",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Zenón Ruiz",
@@ -861,7 +1075,9 @@
     "timePatient": "08:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Medicina deportiva",
-    "notePatient": "Rehabilitación de tendón"
+    "notePatient": "Rehabilitación de tendón",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Adriana Castro",
@@ -869,7 +1085,9 @@
     "timePatient": "10:15",
     "meridiemPatient": "AM",
     "reasonPatient": "Laboratorio",
-    "notePatient": "Prueba de paternidad"
+    "notePatient": "Prueba de paternidad",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Braulio Díaz",
@@ -877,7 +1095,9 @@
     "timePatient": "01:45",
     "meridiemPatient": "PM",
     "reasonPatient": "Traumatología",
-    "notePatient": "Evaluación de rodilla"
+    "notePatient": "Evaluación de rodilla",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Clara Reyes",
@@ -885,7 +1105,9 @@
     "timePatient": "09:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Radiología",
-    "notePatient": "Mamografía"
+    "notePatient": "Mamografía",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Darío Núñez",
@@ -893,7 +1115,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Oftalmología",
-    "notePatient": "Examen de retina"
+    "notePatient": "Examen de retina",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Estela Marín",
@@ -901,7 +1125,9 @@
     "timePatient": "03:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Infectología",
-    "notePatient": "Viaje a zona de riesgo, vacunas"
+    "notePatient": "Viaje a zona de riesgo, vacunas",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Fidel Vega",
@@ -909,7 +1135,9 @@
     "timePatient": "08:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Geriatría",
-    "notePatient": "Evaluación cognitiva"
+    "notePatient": "Evaluación cognitiva",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Gema Cruz",
@@ -917,7 +1145,9 @@
     "timePatient": "10:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Alergología",
-    "notePatient": "Alergia a picaduras de insectos"
+    "notePatient": "Alergia a picaduras de insectos",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Humberto Pérez",
@@ -925,7 +1155,9 @@
     "timePatient": "01:15",
     "meridiemPatient": "PM",
     "reasonPatient": "Nefrología",
-    "notePatient": "Consulta por cálculos"
+    "notePatient": "Consulta por cálculos",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Irma Soto",
@@ -933,7 +1165,9 @@
     "timePatient": "09:45",
     "meridiemPatient": "AM",
     "reasonPatient": "Gastroenterología",
-    "notePatient": "Colonoscopia"
+    "notePatient": "Colonoscopia",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Jorge Torres",
@@ -941,7 +1175,9 @@
     "timePatient": "11:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Dermatología",
-    "notePatient": "Quemadura solar severa"
+    "notePatient": "Quemadura solar severa",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Kenia López",
@@ -949,7 +1185,9 @@
     "timePatient": "02:30",
     "meridiemPatient": "PM",
     "reasonPatient": "Fisioterapia",
-    "notePatient": "Esguince cervical"
+    "notePatient": "Esguince cervical",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Lázaro Vidal",
@@ -957,7 +1195,9 @@
     "timePatient": "08:00",
     "meridiemPatient": "AM",
     "reasonPatient": "Odontología",
-    "notePatient": "Emergencia dental - dolor intenso"
+    "notePatient": "Emergencia dental - dolor intenso",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Marina Ruiz",
@@ -965,7 +1205,9 @@
     "timePatient": "10:30",
     "meridiemPatient": "AM",
     "reasonPatient": "Chequeo general",
-    "notePatient": "Revisión anual"
+    "notePatient": "Revisión anual",
+    "isCancelled": false,
+    "isAttended": false
   },
   {
     "namePatient": "Noé Castro",
@@ -973,6 +1215,8 @@
     "timePatient": "01:00",
     "meridiemPatient": "PM",
     "reasonPatient": "Consulta por mareos",
-    "notePatient": "Vértigo ocasional"
+    "notePatient": "Vértigo ocasional",
+    "isCancelled": false,
+    "isAttended": false
   }
 ]

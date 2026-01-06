@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const usePagination = (data, itemsPerPage) => {
   const [currentPage, setCurrentPage] = useState(1);
 
-  const PAGE_RANGE = 1;
+  const PAGE_RANGE = 2;
 
   const totalDates = Math.ceil(data.length / itemsPerPage);
   const min = (currentPage - 1) * itemsPerPage;
